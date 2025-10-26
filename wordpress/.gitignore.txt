@@ -1,0 +1,21 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Uploads, cache, and backups
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backup-db/
+
+# WordPress config
+wp-config.php
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+*.log
+*.sql
+
+# Node / Build files (if using npm / build tools)
+node_modules/
+dist/
